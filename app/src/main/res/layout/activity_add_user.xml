@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e7e6e6"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/user_email_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="5dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/text_input_border"
+        android:hint="Write user email"
+        android:padding="9dp"
+        android:textColorHint="#d2d1d1" />
+
+    <TextView
+        android:id="@+id/error_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:textColor="#ef3030" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/add_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="50dp"
+            android:text="Add"
+            android:textAllCaps="false"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/cancel_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_weight="1"
+            android:background="#FFF"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="50dp"
+            android:text="Cancel"
+            android:textAllCaps="false"
+            android:textColor="#000000" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
